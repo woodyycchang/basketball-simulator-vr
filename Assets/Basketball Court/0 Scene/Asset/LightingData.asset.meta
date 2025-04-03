@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55fa659c19a52074b835961a8501c734
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248189
+  packageName: Indoor Basketball Court
+  packageVersion: 1.0
+  assetPath: Assets/Basketball Court/0 Scene/Asset/LightingData.asset
+  uploadId: 571279

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ddd6a6f3af0c89546bcee45516780d47
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248189
+  packageName: Indoor Basketball Court
+  packageVersion: 1.0
+  assetPath: Assets/Basketball Court/2 Preset/URP-Basketball-Render.asset
+  uploadId: 571279

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 21aa50131bc134f04a14efdbeb7686be
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248189
+  packageName: Indoor Basketball Court
+  packageVersion: 1.0
+  assetPath: Assets/Basketball Court/3 Scripts/URP Sample/AutoLoadPipelineAsset.cs
+  uploadId: 571279

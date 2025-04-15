@@ -1,0 +1,5 @@
+/Users/woodychang/CS579_Basketball/.utmp/RelWithDebInfo/5u5s6xm5/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/woodychang/CS579_Basketball/.utmp/RelWithDebInfo/5u5s6xm5/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/woodychang/CS579_Basketball/.utmp/RelWithDebInfo/5u5s6xm5/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/woodychang/CS579_Basketball/.utmp/RelWithDebInfo/5u5s6xm5/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/woodychang/CS579_Basketball/.utmp/RelWithDebInfo/5u5s6xm5/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

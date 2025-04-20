@@ -229,7 +229,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &91196249
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -572,7 +572,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &185276520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,7 +623,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &185276522
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1612,7 +1613,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &465102251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1662,7 +1664,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &465102253
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2082,7 +2084,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &505155299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2132,7 +2135,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &505155301
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2265,6 +2268,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
   m_PrefabInstance: {fileID: 2013280715}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &578993589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 578993590}
+  m_Layer: 0
+  m_Name: HoopCenter
+  m_TagString: HoopCenter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &578993590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578993589}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1896496631}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &580110776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2387,7 +2421,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &580110777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2437,7 +2472,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &580110779
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2634,7 +2669,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &593110202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2684,7 +2720,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &593110204
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2968,7 +3004,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &621506548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3018,7 +3055,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &621506550
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3419,7 +3456,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &720915287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3469,7 +3507,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &720915289
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3637,7 +3675,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765904252}
   serializedVersion: 4
-  m_Mass: 0.6
+  m_Mass: 20
   m_Drag: 0.1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3655,7 +3693,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &765904256
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3822,7 +3860,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &765904265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4011,7 +4050,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &825769489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4061,7 +4101,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &825769491
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4436,7 +4476,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &928994870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4486,7 +4527,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &928994872
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4609,7 +4650,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &934468282
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4823,7 +4864,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &934468287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5578,7 +5620,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &1002949061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5628,7 +5671,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &1002949063
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6516,7 +6559,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 0}
+  apexOffset: 2
 --- !u!114 &1198096474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7238,7 +7282,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &1336984827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7288,7 +7333,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &1336984829
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7429,6 +7474,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6603380811600275655, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
   m_PrefabInstance: {fileID: 1904276877}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1464052434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1719173858195236658, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+  m_PrefabInstance: {fileID: 1904276877}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1464052436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7551,7 +7601,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &1464052437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7601,7 +7652,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &1464052439
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7890,7 +7941,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &1497293864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7940,7 +7992,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &1497293866
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8268,7 +8320,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &1541393599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8318,7 +8371,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &1541393601
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8473,6 +8526,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2117584585}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1563942302
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464052434}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1563942303
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464052434}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1576591419
 GameObject:
   m_ObjectHideFlags: 0
@@ -8789,7 +8891,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &1690586887
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9003,7 +9105,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &1690586892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9189,7 +9292,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &1742871069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9239,7 +9343,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &1742871071
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9340,7 +9444,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &1756867456
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9554,7 +9658,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &1756867461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9854,6 +9959,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 720915292}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1853777634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 179431464262470403, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+  m_PrefabInstance: {fileID: 1904276877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1853777638
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853777634}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1853777639
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853777634}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6817661444323845524, guid: 0ef81cd7becbf4f40942fcc2c45a02eb, type: 3}
 --- !u!1 &1879184979
 GameObject:
   m_ObjectHideFlags: 0
@@ -9885,6 +10044,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2069653624}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1896496630 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5574561134245307391, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+  m_PrefabInstance: {fileID: 1904276877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1896496631 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4838064941448177053, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+  m_PrefabInstance: {fileID: 1904276877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1896496634
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896496630}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1896496635
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896496630}
+  m_Material: {fileID: 13400000, guid: ff2b20af4e5da454c9b6e3b9abf43f05, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6817661444323845524, guid: 0ef81cd7becbf4f40942fcc2c45a02eb, type: 3}
 --- !u!1001 &1904276877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9981,6 +10199,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.81
       objectReference: {fileID: 0}
+    - target: {fileID: 5545112749961342731, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0073878765
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545112749961342731, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00046612322
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692884781283290420, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.022097155
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692884781283290420, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02559291
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692884781283290420, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.4813971
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3341659668508728226, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
@@ -10006,6 +10244,9 @@ PrefabInstance:
     - {fileID: 4125867550037478090, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
     - {fileID: 375723629240466699, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4838064941448177053, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 578993590}
     - targetCorrespondingSourceObject: {fileID: 5989825999376580251, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1611135597}
@@ -10079,6 +10320,24 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1683256926}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1719173858195236658, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1563942303}
+    - targetCorrespondingSourceObject: {fileID: 1719173858195236658, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1563942302}
+    - targetCorrespondingSourceObject: {fileID: 5574561134245307391, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1896496635}
+    - targetCorrespondingSourceObject: {fileID: 5574561134245307391, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1896496634}
+    - targetCorrespondingSourceObject: {fileID: 179431464262470403, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1853777639}
+    - targetCorrespondingSourceObject: {fileID: 179431464262470403, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1853777638}
     - targetCorrespondingSourceObject: {fileID: 2463538054470176465, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 765904256}
@@ -10254,7 +10513,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &1964908578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10304,7 +10564,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &1964908580
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10939,7 +11199,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &2069653626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11232,7 +11493,8 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-  moderateVelocity: 8
+  hoopCenter: {fileID: 578993590}
+  apexOffset: 2
 --- !u!114 &2117584580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11282,7 +11544,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &2117584582
 SphereCollider:
   m_ObjectHideFlags: 0

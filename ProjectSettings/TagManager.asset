@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Anchor
   - Rack
+  - HoopCenter
   layers:
   - Default
   - TransparentFX

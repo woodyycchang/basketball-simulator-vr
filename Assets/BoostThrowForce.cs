@@ -4,35 +4,53 @@ using UnityEngine.XR.Interaction.Toolkit;
 [RequireComponent(typeof(Rigidbody))]
 public class BoostThrowForce : UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
 {
-    [Header("Faster Moderate Throw Settings")]
-    [Tooltip("Direct velocity magnitude applied on release (in m/s).")]
-    public float moderateVelocity = 8f;
+    [Header("Arc & Target")]
+    [Tooltip("Center of the rim (create an empty at ring center).")]
+    public Transform hoopCenter;
+
+    [Tooltip("How high above release to peak (meters).")]
+    public float apexOffset = 2f;
+
+    [Header("Drop vs Throw")]
+    [Tooltip("Releases slower than this (m/s) or with downward velocity are treated as plain drops.")]
+    public float minThrowSpeed = 0.1f;
+
+    Rigidbody _rb;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        _rb = GetComponent<Rigidbody>();
+        
+        throwOnDetach = false;
+    }
 
     protected override void OnSelectExited(SelectExitEventArgs args)
     {
-        // Let XR handle the normal detach process.
+        // 1) Let XRToolkit finish its normal detach (applies raw velocity)
         base.OnSelectExited(args);
 
-        Rigidbody rb = GetComponent<Rigidbody>();
-        if (!rb)
-            return;
+        // 2) Check if it's a drop or downward release
+        Vector3 rawVel = _rb.linearVelocity;
+        if (rawVel.magnitude < minThrowSpeed || rawVel.y < 0f)
+            return;  // plain drop or downward direction
 
-        if (args.interactorObject is UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor interactor)
-        {
-            Transform handTransform = interactor.GetAttachTransform(this);
-            Vector3 direction = handTransform.forward.normalized;
+        // 3) Compute NBA‑style arc to hoopCenter
+        Vector3 origin = args.interactorObject.GetAttachTransform(this).position;
+        Vector3 target = hoopCenter.position;
 
-            rb.linearVelocity = direction * moderateVelocity;
+        float g      = -Physics.gravity.y;
+        float apexY  = origin.y + apexOffset;
+        float u      = Mathf.Sqrt(2f * (apexY - origin.y) * g);
+        float flight = 2f * u / g;
 
-            rb.useGravity = true;
-            rb.isKinematic = false;
+        Vector3 delta      = target - origin;
+        Vector3 horizontal = new Vector3(delta.x, 0f, delta.z) / flight;
+        Vector3 launchVel  = horizontal + Vector3.up * u;
 
-            rb.linearDamping = 0f;
-            rb.angularDamping = 0f;
-            rb.angularVelocity = Vector3.zero;
-
-            Debug.Log($"[BoostThrowForce] Applied faster moderate velocity: {direction * moderateVelocity}");
-            Debug.DrawRay(transform.position, rb.linearVelocity, Color.red, 2f);
-        }
+        // 4) Apply final launch velocity
+        _rb.isKinematic = false;
+        _rb.useGravity  = true;
+        _rb.linearVelocity    = launchVel;
     }
 }

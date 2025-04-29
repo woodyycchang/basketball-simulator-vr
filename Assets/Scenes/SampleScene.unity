@@ -573,9 +573,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &185276520
 MonoBehaviour:
@@ -1863,9 +1861,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &465102251
 MonoBehaviour:
@@ -2337,9 +2333,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &505155299
 MonoBehaviour:
@@ -2677,9 +2671,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &580110777
 MonoBehaviour:
@@ -2928,9 +2920,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &593110202
 MonoBehaviour:
@@ -3266,9 +3256,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &621506548
 MonoBehaviour:
@@ -3721,9 +3709,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &720915287
 MonoBehaviour:
@@ -4128,9 +4114,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &765904265
 MonoBehaviour:
@@ -4321,9 +4305,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &825769489
 MonoBehaviour:
@@ -4480,7 +4462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 172901596975893659, guid: 05205776d20c94c9e8d35cc98aae9864, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.02
+      value: 5.9999037
       objectReference: {fileID: 0}
     - target: {fileID: 172901596975893659, guid: 05205776d20c94c9e8d35cc98aae9864, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4750,9 +4732,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &928994870
 MonoBehaviour:
@@ -5141,9 +5121,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &934468287
 MonoBehaviour:
@@ -5900,9 +5878,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &1002949061
 MonoBehaviour:
@@ -6842,9 +6818,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 0}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &1198096474
 MonoBehaviour:
@@ -7628,9 +7602,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &1336984827
 MonoBehaviour:
@@ -7950,9 +7922,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &1464052437
 MonoBehaviour:
@@ -8293,9 +8263,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &1497293864
 MonoBehaviour:
@@ -8675,9 +8643,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &1541393599
 MonoBehaviour:
@@ -9463,9 +9429,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &1690586892
 MonoBehaviour:
@@ -9653,9 +9617,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &1742871069
 MonoBehaviour:
@@ -10022,9 +9984,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &1756867461
 MonoBehaviour:
@@ -10061,6 +10021,7 @@ GameObject:
   - component: {fileID: 1793374158}
   - component: {fileID: 1793374157}
   - component: {fileID: 1793374156}
+  - component: {fileID: 1793374159}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -10077,7 +10038,7 @@ Transform:
   m_GameObject: {fileID: 1793374154}
   serializedVersion: 2
   m_LocalRotation: {x: -7.1054274e-15, y: -1.4809995e-27, z: -3.3881318e-20, w: 1}
-  m_LocalPosition: {x: -0.35000038, y: -0.4000001, z: 0}
+  m_LocalPosition: {x: -0.3439989, y: -0.8040902, z: 0.0000019251906}
   m_LocalScale: {x: 0.48, y: 0.01, z: 0.48}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10098,6 +10059,7 @@ MonoBehaviour:
   score: 0
   ballTag: Basketball
   scoreText: {fileID: 418413910}
+  scoreClip: {fileID: 8300000, guid: deb4ac718766a459c901d5d87c6862d7, type: 3}
 --- !u!136 &1793374157
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10129,6 +10091,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793374154}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &1793374159
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793374154}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.3
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1803660453
 GameObject:
   m_ObjectHideFlags: 0
@@ -10178,6 +10237,7 @@ MonoBehaviour:
   score: 0
   ballTag: Basketball
   scoreText: {fileID: 0}
+  scoreClip: {fileID: 0}
 --- !u!136 &1803660456
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10482,6 +10542,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6817661444323845524, guid: 0ef81cd7becbf4f40942fcc2c45a02eb, type: 3}
+--- !u!1 &1868399959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4887886296599256624, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+  m_PrefabInstance: {fileID: 1904276877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1868399964
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868399959}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1879184979
 GameObject:
   m_ObjectHideFlags: 0
@@ -10820,6 +10912,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 179431464262470403, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1853777638}
+    - targetCorrespondingSourceObject: {fileID: 4887886296599256624, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1868399964}
     - targetCorrespondingSourceObject: {fileID: 2463538054470176465, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 765904256}
@@ -11006,9 +11101,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &1964908578
 MonoBehaviour:
@@ -11695,9 +11788,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &2069653626
 MonoBehaviour:
@@ -11992,9 +12083,7 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  minFlightTime: 0.7
-  maxFlightTime: 1.1
-  maxTimeDistance: 5
+  launchAngleDeg: 48
   minThrowSpeed: 0.1
 --- !u!114 &2117584580
 MonoBehaviour:

@@ -5,28 +5,33 @@ public class BasketScore : MonoBehaviour
 {
     public int score = 0;
     public string ballTag = "Basketball";
-
     public TextMeshProUGUI scoreText;
 
-    private void Start()
+    [Header("Score Sound")]
+    public AudioClip scoreClip; 
+    private AudioSource audioSrc;
+
+    void Awake()
     {
-        UpdateScoreText();
+        audioSrc = gameObject.AddComponent<AudioSource>();
+        audioSrc.playOnAwake = false;
+        audioSrc.volume = 0.5f;
     }
 
-    private void OnTriggerEnter(Collider other)
+    void Start() => UpdateScoreText();
+
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(ballTag))
         {
             score++;
             UpdateScoreText();
+            if (scoreClip) audioSrc.PlayOneShot(scoreClip, 0.5f);
         }
     }
 
-    private void UpdateScoreText()
+    void UpdateScoreText()
     {
-        if (scoreText != null)
-        {
-            scoreText.text = score.ToString();
-        }
+        if (scoreText) scoreText.text = score.ToString();
     }
 }

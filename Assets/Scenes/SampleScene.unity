@@ -573,7 +573,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &185276520
 MonoBehaviour:
@@ -1615,7 +1617,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &465102251
 MonoBehaviour:
@@ -2087,7 +2091,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &505155299
 MonoBehaviour:
@@ -2296,7 +2302,7 @@ Transform:
   m_GameObject: {fileID: 578993589}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 1.656002, y: -0.6040902, z: 0.0000019601598}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2425,7 +2431,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &580110777
 MonoBehaviour:
@@ -2674,7 +2682,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &593110202
 MonoBehaviour:
@@ -3010,7 +3020,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &621506548
 MonoBehaviour:
@@ -3463,7 +3475,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &720915287
 MonoBehaviour:
@@ -3868,7 +3882,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &765904265
 MonoBehaviour:
@@ -4059,7 +4075,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &825769489
 MonoBehaviour:
@@ -4486,7 +4504,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &928994870
 MonoBehaviour:
@@ -4875,7 +4895,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &934468287
 MonoBehaviour:
@@ -5632,7 +5654,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &1002949061
 MonoBehaviour:
@@ -6572,7 +6596,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 0}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &1198096474
 MonoBehaviour:
@@ -7296,7 +7322,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &1336984827
 MonoBehaviour:
@@ -7616,7 +7644,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &1464052437
 MonoBehaviour:
@@ -7957,7 +7987,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &1497293864
 MonoBehaviour:
@@ -8337,7 +8369,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &1541393599
 MonoBehaviour:
@@ -9123,7 +9157,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &1690586892
 MonoBehaviour:
@@ -9311,7 +9347,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &1742871069
 MonoBehaviour:
@@ -9678,7 +9716,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &1756867461
 MonoBehaviour:
@@ -10306,15 +10346,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5065183310626182325, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.6
+      value: 16.244852
       objectReference: {fileID: 0}
     - target: {fileID: 5065183310626182325, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.67
+      value: 1.3449175
       objectReference: {fileID: 0}
     - target: {fileID: 5065183310626182325, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.83
+      value: -4.0706034
       objectReference: {fileID: 0}
     - target: {fileID: 5379307443279513079, guid: 6f1d9b17a1dc6466d8a233a57c37ea67, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10650,7 +10690,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &1964908578
 MonoBehaviour:
@@ -11337,7 +11379,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &2069653626
 MonoBehaviour:
@@ -11632,7 +11676,9 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
   hoopCenter: {fileID: 578993590}
-  apexOffset: 2
+  minFlightTime: 0.7
+  maxFlightTime: 1.1
+  maxTimeDistance: 5
   minThrowSpeed: 0.1
 --- !u!114 &2117584580
 MonoBehaviour:

@@ -11,6 +11,9 @@ public class BasketScore : MonoBehaviour
     public AudioClip scoreClip; 
     private AudioSource audioSrc;
 
+    [Header("Audience Animation")]
+    public AudienceGroup audienceGroup;
+
     void Awake()
     {
         audioSrc = gameObject.AddComponent<AudioSource>();
@@ -27,6 +30,9 @@ public class BasketScore : MonoBehaviour
             score++;
             UpdateScoreText();
             if (scoreClip) audioSrc.PlayOneShot(scoreClip, 0.5f);
+
+            if (audienceGroup)
+                audienceGroup.PlayAll();
         }
     }
 

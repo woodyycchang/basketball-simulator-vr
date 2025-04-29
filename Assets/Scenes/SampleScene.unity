@@ -4609,6 +4609,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1287971496}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &924875303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7445897500181066357, guid: f1a5ac9248bf7234f86e03364a848991, type: 3}
+  m_PrefabInstance: {fileID: 8580507972197065657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &924875305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924875303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c69ed68841b24349bcae4672bbd1c12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &928994869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10060,6 +10077,7 @@ MonoBehaviour:
   ballTag: Basketball
   scoreText: {fileID: 418413910}
   scoreClip: {fileID: 8300000, guid: deb4ac718766a459c901d5d87c6862d7, type: 3}
+  audienceGroup: {fileID: 924875305}
 --- !u!136 &1793374157
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10238,6 +10256,7 @@ MonoBehaviour:
   ballTag: Basketball
   scoreText: {fileID: 0}
   scoreClip: {fileID: 0}
+  audienceGroup: {fileID: 0}
 --- !u!136 &1803660456
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12933,7 +12952,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7445897500181066357, guid: f1a5ac9248bf7234f86e03364a848991, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 924875305}
   m_SourcePrefab: {fileID: 100100000, guid: f1a5ac9248bf7234f86e03364a848991, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -72,7 +72,3 @@ All basketball objects must have the **"Basketball"** tag to interact properly w
 - OpenXR 1.14.1
 - Input System 1.13.1
 - Universal RP 17.0.4
-
-## License
-
-[Add your license here]

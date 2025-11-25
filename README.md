@@ -1,6 +1,6 @@
-# CS579 Basketball VR
+# Basketball Simulator VR
 
-A VR basketball game built with Unity for the CS579 course.
+A VR basketball game built with Unity.
 
 ## Requirements
 
